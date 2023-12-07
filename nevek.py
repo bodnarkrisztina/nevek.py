@@ -1,5 +1,5 @@
 import streamlit as st
 
-st.write(".write: Your hobby is: ", hobby)
+name = st.text_input(".text_input: Enter Your name", "Type Here ...")
 
 status = st.radio(".radio: Select Gender: ", ('Male', 'Female'))
